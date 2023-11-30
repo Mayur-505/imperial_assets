@@ -1,0 +1,63 @@
+.header {
+    padding: 30px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.10);
+
+    .logo {
+        @media (max-width: 768px) {
+            display: none;
+        }
+
+        @media (max-width: 1024px) {
+            padding-right: 50px;
+        }
+    }
+
+    .logoMobile {
+        @media (min-width: 770px) {
+            display: none;
+        }
+    }
+
+    .headerRight {
+        font-family: "Satoshi";
+        font-size: 18px;
+        font-weight: 500;
+        color: #0E0E0E;
+
+        a {
+            margin-right: 48px;
+        }
+
+        a:last-child {
+            margin-right: 0;
+        }
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .mobilemenu {
+        display: none;
+
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    
+        @media (max-width: 768px) {
+           display: inline-block;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        justify-content: start;
+    }
+
+    @media (max-width: 768px) {
+        padding: 17px 20px;
+        justify-content: space-between;
+    }
+}

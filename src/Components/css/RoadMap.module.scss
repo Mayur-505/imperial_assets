@@ -1,0 +1,188 @@
+.RoadMapSec {
+    padding: 0 80px;
+    margin-bottom: 100px;
+    background: #FFF;
+
+
+    @media (max-width: 768px) {
+        padding: 34px 20px 0;
+    }
+
+    .RoadMapMain {
+        width: 100%;
+
+        .RoadMapTextInner {
+            margin-bottom: 51px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @media (max-width: 768px) {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .RoadMapText {
+                color: #0E0E0E;
+                font-family: Satoshi;
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 60px;
+
+                @media (max-width:768px) {
+                    color: #0E0E0E;
+                    font-family: Satoshi;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 46px;
+                }
+            }
+
+            .RoadMapSubText {
+                color: rgba(14, 14, 14, 0.70);
+                text-align: center;
+                font-family: Satoshi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+
+                @media (max-width:768px) {
+                    color: rgba(14, 14, 14, 0.70);
+                    font-family: Satoshi;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+
+    .RoadMapStepper {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+        margin: auto;
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 50%;
+            border: 1px solid;
+            transform: translate(-50%);
+            width: 1px;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .wrapper {
+
+            .c_timeline__item {
+                position: relative;
+                gap: 1.5rem;
+                list-style: none;
+                // display: flex;
+                // align-items: center;
+                // justify-content: center;
+                //outline: solid 1px;
+
+                // &:last-child {
+                //     .c_timeline__content {
+                //         &:before {
+                //             display: none;
+                //         }
+                //     }
+                // }
+
+                .content_card {
+                    width: 336px;
+                    height: auto;
+                    padding: 18px 20px;
+                    border-radius: 12px;
+                    border: 1px solid rgba(14, 14, 14, 0.10);
+                    background: #FFF;
+                    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.02);
+
+                    &.content_card_left{
+                        transform: translateX(238px);
+                    }
+                }
+                .timeLineYear{
+                    position: absolute;
+                    color: #0E0E0E;
+                    font-size: 22px;
+                    font-weight: 500;
+                    line-height: 30px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    
+                    .stepperImg{
+                        margin-left: 24px;
+                    }
+                }
+            }
+
+
+            // .c_timeline__content {
+            //     flex: 1;
+            //     position: relative;
+            //     order: 1;
+            //     padding-left: 1.5rem;
+            //     padding-bottom: 3rem;
+
+            //     &:before {
+            //         content: "";
+            //         position: absolute;
+            //         right: 100%;
+            //         top: 87px;
+            //         height: 100%;
+            //         width: 2px;
+            //         background-color: lightgrey;
+            //     }
+
+            //     &:after {
+            //         content: url('../../../public//assets//Images/stepper.png');
+            //         // background-image: url("../../../public//assets//Images/stepper.png");
+            //         position: absolute;
+            //         left: calc(0px - 11px);
+            //         top: 68px;
+            //         left: -18px;
+            //         z-index: 1;
+            //     }
+            // }
+
+            .c_timeline__title {
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+
+            .c_timeline__desc {
+                display: flex;
+                align-items: start;
+                margin-bottom: 8px;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+
+                .arrowImg {
+                    margin: 2px 10px 0 0;
+                }
+            }
+
+            time {
+                text-align: end;
+                flex: 0 0 100px;
+                min-width: 0;
+                overflow-wrap: break-word;
+                padding-bottom: 3rem;
+                margin-right: 24px;
+            }
+        }
+    }
+}

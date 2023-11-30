@@ -1,0 +1,188 @@
+.DownloadWalletSec {
+    padding: 70px 0 0 80px;
+    margin-bottom: 100px;
+    background: #F4F4F4;
+
+
+    @media (max-width: 768px) {
+        padding: 34px 20px 0;
+    }
+
+    .DownloadWalletMain {
+        width: 100%;
+        .DownloadWalletTextInner {
+            margin-bottom: 48px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            @media (max-width: 768px) {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .DownloadWalletText {
+                color: #0E0E0E;
+                font-family: Satoshi;
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 60px;
+                margin-bottom: 16px;
+
+                @media (max-width:768px) {
+                    color: #0E0E0E;
+                    font-family: Satoshi;
+                    font-size: 34px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 42px;
+                    margin-bottom: 12px;
+                }
+            }
+
+            .DownloadWalletSubText {
+                color: rgba(14, 14, 14, 0.70);
+                text-align: center;
+                font-family: Satoshi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                width: 859px;
+
+                @media (max-width:768px) {
+                    color: rgba(14, 14, 14, 0.70);
+                    font-family: Satoshi;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    width: 100%;
+                }
+            }
+        }
+
+        .bannerInner {
+            display: flex;
+
+            @media (max-width:768px) {
+                display: block; 
+            }
+
+            .BannerTextsec {
+                position: relative;
+                width: 55%;
+                @media (max-width:768px) {
+                    width: 100%; 
+                }
+                .bannerSub {
+                    color: #0E0E0E;
+                    font-family: Satoshi;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+                    margin-bottom: 15px;
+
+                    @media (max-width: 768px) {
+                        color: #0E0E0E;
+                        font-family: Satoshi;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 32px;
+                        width: 335px;
+                    }
+                }
+
+                .bannertext {
+                    color: rgba(14, 14, 14, 0.70);
+                    font-family: Satoshi;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    width: 545px;
+                    margin-bottom: 15px;
+
+                    @media (max-width: 768px) {
+                        color: rgba(14, 14, 14, 0.70);
+                        font-family: Satoshi;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        width: 308px;
+                    }
+                }
+
+                .SecureStorage {
+                    margin-left: 25px;
+                    margin-bottom: 30px;
+
+                    ul {
+                        color: #0E0E0E;
+                        font-family: Satoshi;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 26px;
+                        width: 545px;
+
+                        @media (max-width:768px) {
+                            color: #0E0E0E;
+                            font-family: Satoshi;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            /* 150% */
+                        }
+
+                        li {
+                            margin-bottom: 6px;
+                        }
+
+                        li:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .mainButton {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    @media (max-width:768px) {
+                        margin-bottom: 30px;
+
+                        .StoreImg {
+                            width: 135px;
+                            height: 48px;
+                        }
+                    }
+
+
+                }
+
+            }
+            .BannerImgSec {
+                position: relative;
+                width: 45%;
+
+                @media (max-width:768px) {
+                    margin-bottom: 100px;
+                }
+
+                .BannerImg {
+                    @media (max-width:768px) {
+                        width: auto;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

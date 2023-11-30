@@ -1,0 +1,98 @@
+.FooterSec {
+    background: #0E0E0E;
+
+    .FooterBorder {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+
+        .footerMain {
+            padding: 80px;
+            display: flex;
+            flex-wrap: nowrap;
+            gap: 200px;
+
+            @media (max-width:768px) {
+                flex-wrap: wrap;
+                gap: 60px;
+                padding: 40px 20px;
+            }
+        }
+
+    }
+
+    .FooterImperial {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 20px 0;
+        color: #FFF;
+        font-family: Satoshi;
+
+        @media (max-width:768px) {
+            color: rgba(255, 255, 255, 0.40);
+            font-family: Poppins;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+}
+
+.FooterHeaderTextInner {
+    .FooterheaderText {
+        margin-bottom: 16px;
+        color: rgba(255, 255, 255, 0.70);
+        font-family: Satoshi;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+
+        @media (max-width:768px) {
+            color: rgba(255, 255, 255, 0.70);
+            font-family: Satoshi;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+        }
+    }
+
+    .FooterSubtext {
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        list-style-type: none;
+
+
+        @media (max-width:768px) {
+            gap: 12px;
+        }
+    }
+}
+
+.NavLinkText {
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:768px) {
+        color: #FFF;
+        font-family: Satoshi;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+    }
+
+    .NavLinkImg {
+        margin-right: 10px;
+    }
+}

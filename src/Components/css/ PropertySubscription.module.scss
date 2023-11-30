@@ -1,0 +1,205 @@
+.SubscriptionSection {
+    padding: 0 80px;
+    margin-bottom: 150px;
+    height: 100%;
+
+    @media (max-width: 768px) {
+        padding: 0 20px 14px;
+        margin-bottom: 100px;
+    }
+
+    .mainSubscription {
+        position: relative;
+        width: 100%;
+
+        .SubscriptionInnerText {
+            margin-bottom: 40px;
+
+            .SubscriptionSub {
+                color: #0E0E0E;
+                font-family: Satoshi;
+                font-size: 52px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: 60px;
+                margin-bottom: 16px;
+
+                @media (max-width:768px) {
+                    color: #0E0E0E;
+                    font-family: Satoshi;
+                    font-size: 38px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 46px;
+                    width: 100%;
+                    margin-bottom: 12px;
+                }
+            }
+
+            .SubscriptionSubtextpara {
+                color: rgba(14, 14, 14, 0.70);
+                font-family: Satoshi;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 28px;
+                width: 656px;
+
+                @media (max-width:768px) {
+                    color: rgba(14, 14, 14, 0.70);
+                    font-family: Satoshi;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 28px;
+                    width: 100%;
+                }
+            }
+        }
+
+        .SubscriptionInner {
+            display: flex;
+            align-items: start;
+
+            .SubscriptionTextsec {
+                position: relative;
+                width: 58%;
+                @media (max-width:768px) {
+                    width: 100%;
+                }
+
+                .step {
+                    position: relative;
+                    min-height: 1em;
+                    color: gray;
+
+                    &+.step {
+                        margin-top: 1.5em;
+                    }
+
+                    >div:first-child {
+                        position: static;
+                        height: 0;
+                    }
+
+                    >div:not(:first-child) {
+                        margin-left: 1.5em;
+                        padding-left: 1em;
+                    }
+
+                    .SubscriptionStepImg {
+                        display: none;
+
+                        @media (max-width:768px) {
+                            display: block;
+                            margin-top: 16px;
+                        }
+                    }
+                }
+
+                .FirstTitle,
+                .title {
+                    color: #0E0E0E;
+                    font-family: Satoshi;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 32px;
+
+                    @media (max-width:768px) {
+                        color: #0E0E0E;
+                        font-family: Satoshi;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 28px;
+                    }
+                }
+
+                .FirstCaption,
+                .caption {
+                    color: rgba(14, 14, 14, 0.70);
+                    font-family: Satoshi;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 26px;
+                    width: 545px;
+
+                    @media (max-width:768px) {
+                        color: rgba(14, 14, 14, 0.70);
+                        font-family: Satoshi;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        width: 100%;
+                    }
+                }
+
+                .circle,
+                .FirstCircle {
+                    background: gray;
+                    position: relative;
+                    width: 14px;
+                    height: 14px;
+                    line-height: 1.5em;
+                    border-radius: 100%;
+                    color: #fff;
+                    text-align: center;
+                    box-shadow: 0 0 0 3px #fff;
+
+                    &::after {
+                        content: " ";
+                        position: absolute;
+                        display: block;
+                        top: -65px;
+                        right: 50%;
+                        bottom: 1px;
+                        left: 50%;
+                        height: 81px;
+                        width: 2px;
+                        transform: scale(1, 2);
+                        transform-origin: 50% -100%;
+                        background-color: rgba(14, 14, 14, 0.08);
+                    }
+
+                    @media (max-width:768px) {
+                        width: 10px;
+                        height: 10px;
+
+                        &::after {
+                            top: -77px;
+                            height: 82px;
+                        }
+                    }
+                }
+
+                .FirstCircle {
+                    background: #0E0E0E;
+                }
+
+                .step:last-child .circle:after {
+                    display: none;
+                }
+
+                .step_active {
+                    color: #4285F4;
+
+                    .circle {
+                        background-color: #4285F4;
+                    }
+                }
+            }
+
+            .SubscriptionImgSec {
+                position: relative;
+                width: 42%;
+
+                @media (max-width:768px) {
+                    display: none;
+                }
+            }
+        }
+    }
+}

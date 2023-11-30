@@ -1,0 +1,158 @@
+.UtilitySec {
+    max-width: 1340px;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+    padding-bottom: 166px;
+
+    .UtilityMain {
+        .UtilityCases {
+            text-align: center;
+            color: #0E0E0E;
+            font-family: Satoshi;
+            font-size: 52px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 60px;
+            /* 115.385% */
+        }
+
+        .UtilityUseCases {
+            .UtilityUseCasesOuter {
+                .UtilitySomiImg {
+                    text-align: center;
+                    margin-top: 48px;
+                }
+
+                .UtilityUseCasesCard {
+                    display: inline-flex;
+                    padding: 20px 20px 28px 20px;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 18px;
+                    border-radius: 16px;
+                    border: 1px solid rgba(14, 14, 14, 0.10);
+                    background: #FFF;
+                    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.02);
+                    position: absolute;
+                    background-color: FFF;
+
+                    .UtilityUseCasesCardInner {
+                        .UtilityUseCasesCardText {
+                            text-align: center;
+                            color: #0E0E0E;
+                            font-family: Satoshi;
+                            font-size: 22px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 30px;
+                            margin-bottom: 4px;
+                        }
+
+                        .UtilityUseCasesCardSubText {
+                            color: rgba(14, 14, 14, 0.70);
+                            text-align: center;
+                            font-family: Satoshi;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 24px;
+                            width: 351px;
+                        }
+                    }
+                }
+
+                .InvestmentCard {
+                    top: 137px;
+                    left: 20px;
+
+                    .UtilityUseCasesSubCard {
+                        position: relative;
+                        text-align: center;
+
+                        .InvesmentBorder {
+                            position: absolute;
+                            top: 26px;
+                            left: 372px;
+                        }
+                    }
+                }
+
+                .VotingCard {
+                    top: 137px;
+                    right: 20px;
+
+                    .UtilityUseCasesSubCard {
+                        position: relative;
+                        text-align: center;
+
+                        .VotingBorder {
+                            position: absolute;
+                            top: 16px;
+                            left: -172px;
+                        }
+                    }
+                }
+
+                .DepositCard {
+                    bottom: 170px;
+                    left: 0;
+
+                    .UtilityUseCasesSubCard {
+                        position: relative;
+                        text-align: center;
+
+                        .DepositBorder {
+                            position: absolute;
+                            top: -207px;
+                            left: 371px;
+                        }
+                    }
+                }
+
+                .Dividend {
+                    bottom: 190px;
+                    right: 0;
+
+                    .UtilityUseCasesSubCard {
+                        position: relative;
+                        text-align: center;
+
+                        .DividendBorder {
+                            position: absolute;
+                            top: -221px;
+                            left: -254px;
+                        }
+
+                        .VotingBorder {
+                            position: absolute;
+                            top: -221px;
+                            left: -254px;
+                        }
+                    }
+                }
+
+                .RealCard {
+                    bottom: 0px;
+                    right: 0;
+                    left: 0;
+                    width: 459px;
+                    margin: 0 auto;
+
+                    .UtilityUseCasesSubCard {
+                        position: relative;
+                        text-align: center;
+
+                        .RealBorder {
+                            position: absolute;
+                            top: -278px;
+                            left: 173px;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
