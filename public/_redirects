@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "../src/app/layout.tsx"
+  status = 200
+  force = false
