@@ -141,6 +141,10 @@
                         line-height: 26px;
                         background-color: #0E0E0E;
                         margin-right: 16px;
+                        border: none;
+                        outline: none;
+                        transition: all 0.3s;
+                        cursor: pointer;
 
                         @media (max-width:768px) {
                             width: 133px;
@@ -154,10 +158,22 @@
                             font-style: normal;
                             font-weight: 900;
                             line-height: 22px;
+                            border: none;
+                            outline: none;
+                            transition: all 0.3s;
+                            cursor: pointer;
+
+                            &:hover {
+                                background-color: rgb(13, 13, 13, 0.8);
+                            }
                         }
 
                         img {
                             margin: 0;
+                        }
+
+                        &:hover {
+                            background-color: rgb(13, 13, 13, 0.8);
                         }
                     }
 
@@ -175,6 +191,10 @@
                         font-style: normal;
                         font-weight: 700;
                         line-height: 26px;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        transition: all 0.3s;
 
                         @media (max-width:768px) {
                             width: 180px;
@@ -188,8 +208,13 @@
                             font-style: normal;
                             font-weight: 700;
                             line-height: 22px;
+                            border: none;
+                            outline: none;
+                            cursor: pointer;
                         }
-
+                        &:hover {
+                            color: #0e0e0ea6;
+                        }
                         img {
                             margin: 0;
                         }
@@ -209,15 +234,16 @@
 
                 .BannerImg {
                     @media (max-width:768px) {
-                       display: none;
+                        display: none;
                     }
                 }
-                .MobileBannerImg{
+
+                .MobileBannerImg {
                     display: none;
 
                     @media (max-width:768px) {
                         display: block;
-                     }
+                    }
                 }
             }
         }
