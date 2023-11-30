@@ -141,79 +141,90 @@ const Utility = () => {
           <div className={styles.StarightBorder}>
             <Image src={StarightBorder} alt="StarightBorder" />
           </div>
+
           <Slider {...settings} className={styles.SlickSlider}>
-            <div className={`${styles.UtilityUseCasesCard}`}>
-              <div className={styles.MobileImg}>
-                <Image src={MoneySend} alt="MoneySend" />
-              </div>
-              <div className={styles.UtilityUseCasesCardInner}>
-                <h3 className={styles.UtilityUseCasesCardText}>
-                  Investment Reservation
-                </h3>
-                <div className={styles.UtilityUseCasesCardSubText}>
-                  Utilize SOMI tokens to secure an investment spot in property
-                  projects overseen by Korea Sotheby’s International Realty
+            <div className={styles.sliderCard}>
+              <div className={`${styles.UtilityUseCasesCard}`}>
+                <div className={styles.MobileImg}>
+                  <Image src={MoneySend} alt="MoneySend" />
+                </div>
+                <div className={styles.UtilityUseCasesCardInner}>
+                  <h3 className={styles.UtilityUseCasesCardText}>
+                    Investment Reservation
+                  </h3>
+                  <div className={styles.UtilityUseCasesCardSubText}>
+                    Utilize SOMI tokens to secure an investment spot in property
+                    projects overseen by Korea Sotheby’s International Realty
+                  </div>
                 </div>
               </div>
             </div>
-            <div className={`${styles.UtilityUseCasesCard}`}>
-              <div className={styles.MobileImg}>
-                <Image src={VotingImg} alt="VotingImg" />
-              </div>
-              <div className={styles.UtilityUseCasesCardInner}>
-                <h3 className={styles.UtilityUseCasesCardText}>
-                  Voting Rights{" "}
-                </h3>
-                <div className={styles.UtilityUseCasesCardSubText}>
-                  The “Voting Rights” bestowed upon SOMI token holders
-                  constitute a fundamental aspect of the token’s utility
+            <div className={styles.sliderCard}>
+              <div className={`${styles.UtilityUseCasesCard}`}>
+                <div className={styles.MobileImg}>
+                  <Image src={VotingImg} alt="VotingImg" />
+                </div>
+                <div className={styles.UtilityUseCasesCardInner}>
+                  <h3 className={styles.UtilityUseCasesCardText}>
+                    Voting Rights{" "}
+                  </h3>
+                  <div className={styles.UtilityUseCasesCardSubText}>
+                    The “Voting Rights” bestowed upon SOMI token holders
+                    constitute a fundamental aspect of the token’s utility
+                  </div>
                 </div>
               </div>
             </div>
-            <div className={`${styles.UtilityUseCasesCard}`}>
-              <div className={styles.MobileImg}>
-                <Image src={DepositImg} alt="DepositImg" />
-              </div>
-              <div className={styles.UtilityUseCasesCardInner}>
-                <h3 className={styles.UtilityUseCasesCardText}>
-                  Deposit Requirement
-                </h3>
-                <div className={styles.UtilityUseCasesCardSubText}>
-                  Within the SOMI ecosystem, the “Deposit Requirement” plays a
-                  crucial role, functioning as both a commitment mechanism and a
-                  safeguard against speculative investments
+            <div className={styles.sliderCard}>
+              <div className={`${styles.UtilityUseCasesCard}`}>
+                <div className={styles.MobileImg}>
+                  <Image src={DepositImg} alt="DepositImg" />
+                </div>
+                <div className={styles.UtilityUseCasesCardInner}>
+                  <h3 className={styles.UtilityUseCasesCardText}>
+                    Deposit Requirement
+                  </h3>
+                  <div className={styles.UtilityUseCasesCardSubText}>
+                    Within the SOMI ecosystem, the “Deposit Requirement” plays a
+                    crucial role, functioning as both a commitment mechanism and a
+                    safeguard against speculative investments
+                  </div>
                 </div>
               </div>
             </div>
-            <div className={`${styles.UtilityUseCasesCard}`}>
-              <div className={styles.MobileImg}>
-                <Image src={RealImg} alt="RealImg" />
-              </div>
-              <div className={styles.UtilityUseCasesCardInner}>
-                <h3 className={styles.UtilityUseCasesCardText}>
-                  Real Investment{" "}
-                </h3>
-                <div className={styles.UtilityUseCasesCardSubText}>
-                  The “Real Investment” stage marks the realization of the
-                  commitment made through SOMI toekns into tangible financial
-                  participation. In this phase, the investment process
-                  transitions from the use of SOMI tokens to major
-                  cryptocurrencies such as BNB(Binance coin)
+            <div className={styles.sliderCard}>
+              <div className={`${styles.UtilityUseCasesCard}`}>
+                <div className={styles.MobileImg}>
+                  <Image src={RealImg} alt="RealImg" />
+                </div>
+                <div className={styles.UtilityUseCasesCardInner}>
+                  <h3 className={styles.UtilityUseCasesCardText}>
+                    Real Investment{" "}
+                  </h3>
+                  <div className={styles.UtilityUseCasesCardSubText}>
+                    The “Real Investment” stage marks the realization of the
+                    commitment made through SOMI toekns into tangible financial
+                    participation. In this phase, the investment process
+                    transitions from the use of SOMI tokens to major
+                    cryptocurrencies such as BNB(Binance coin)
+                  </div>
                 </div>
               </div>
             </div>
-            <div className={`${styles.UtilityUseCasesCard}`}>
-              <div className={styles.MobileImg}>
-                <Image src={DividendImg} alt="DividendImg" />
-              </div>
-              <div className={styles.UtilityUseCasesCardInner}>
-                <h3 className={styles.UtilityUseCasesCardText}>
-                  Dividend Distribution
-                </h3>
-                <div className={styles.UtilityUseCasesCardSubText}>
-                  The “Dividend Distribution” mechanism stands out as a pivotal
-                  feature, rewarding property holders based on their investment
-                  and active participation{" "}
+            <div className={styles.sliderCard}>
+              <div className={`${styles.UtilityUseCasesCard}`}>
+                <div className={styles.MobileImg}>
+                  <Image src={DividendImg} alt="DividendImg" />
+                </div>
+                <div className={styles.UtilityUseCasesCardInner}>
+                  <h3 className={styles.UtilityUseCasesCardText}>
+                    Dividend Distribution
+                  </h3>
+                  <div className={styles.UtilityUseCasesCardSubText}>
+                    The “Dividend Distribution” mechanism stands out as a pivotal
+                    feature, rewarding property holders based on their investment
+                    and active participation{" "}
+                  </div>
                 </div>
               </div>
             </div>

@@ -3,15 +3,27 @@
     padding: 80px;
     margin-bottom: 150px;
 
+    @media (max-width:768px) {
+        padding: 20px;
+    }
+
     .TokenIssuancePlanMain {
         .TokenIssuancePlan {
             border-bottom: 1.5px solid rgba(14, 14, 14, 0.10);
-            ;
+
+            @media (max-width:768px) {
+                display: none;
+            }
 
             .TokenIssuancePlancard {
                 display: flex;
                 align-items: center;
                 margin-bottom: 56px;
+
+                @media (max-width:768px) {
+                    width: auto;
+                    height: auto;
+                }
 
                 .TokenIssuance {
                     display: flex;
@@ -80,114 +92,256 @@
 
             }
         }
-        
-        .TokenIssuancePlanChart {
-            text-align: center;
-            margin-top: 120px;
-            
-            .arrow_to_discription {
-                position: relative;
-                
-                .GovernanceColor{
-                    text-align: left;
 
-                    span{
+        .MobileToken {
+            display: none;
+
+            @media (max-width:768px) {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border-bottom: 1px solid rgba(14, 14, 14, 0.10);
+                padding-bottom: 40px;
+
+            }
+
+            .MobileTokenCardImg {
+                margin-bottom: 24px;
+
+                .MobileTokenCard {
+                    width: auto;
+                }
+            }
+
+            .MobileCard {
+                width: 335px;
+                border-radius: 16px;
+                border: 1px solid rgba(14, 14, 14, 0.10);
+                background: #FFF;
+                box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.02);
+                padding: 0 20px;
+
+                .mobilecardMain {
+                    border-bottom: 1px solid rgba(14, 14, 14, 0.10);
+                    padding: 20px 0;
+
+                    .MobilecardInner {
+                        display: flex;
+                        align-items: center;
+
+                        .text {
+                            color: #0E0E0E;
+                            font-family: Satoshi;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 24px;
+                            margin-left: 12px;
+                        }
+                    }
+                }
+
+                .Specification {
+                    .MobilecardInner {
                         display: block;
-                    }
-                    .title{
-                        color: rgba(14, 14, 14, 0.70);
-                        font-size: 18px;
-                        font-weight: 400;
-                        line-height: 28px;
-                        margin-bottom: 2px;
-                    }
-                    .description{
-                        color: #0E0E0E;
-                        font-size: 18px;
-                        font-weight: 700;
-                        line-height: 28px;
-                    }
-                }
-                
-                .discription_sub_div1 {
-                    position: absolute;
-                    top: -282px;
-                    left: 610px;
 
-                    .piecircle {
-                        position: relative;
-                    }
-                    .pieBorder1 {
-                        position: absolute;
-                        top: -47px;
-                        left: -275px;
-                    }
-                    .Governance1{
-                        position: absolute;
-                        top: -114px;
-                        left: -270px;
-                        text-align: left;
-                    }
-                }
+                        .mobileText {
+                            color: #0E0E0E;
+                            font-family: Satoshi;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: 24px;
+                            margin-bottom: 6px;
+                        }
 
-                .discription_sub_div2 {
-                    position: absolute;
-                    top: -237px;
-                    left: 252px;
-
-                    .piecircle {
-                        position: relative;
+                        .mobileSubText {
+                            color: #0E0E0E;
+                            font-family: Satoshi;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 22px;
+                        }
                     }
 
-                    .pieBorder1 {
-                        position: absolute;
-                        top: -23px;
-                        left: -281px;
-                    }
-                    .Governance2{
-                        position: absolute;
-                        top: -68px;
-                        left: 0;
-                    }
-                }
-
-                .discription_sub_div3 {
-                    position: absolute;
-                    top: -122px;
-                    left: 180px;
-
-                   .Governance3{
-                    position: absolute;
-                    top: -10px;
-                   }
-                }
-
-                .discription_sub_div4 {
-                    position: absolute;
-                    top: -50px;
-                    left: 648px;
-
-                    .Governance4{
-                        position: absolute;
-                        top: -10px;
-                        right: 0;
-                        text-align: right;
-                    }
-                }
-
-                .discription_sub_div5 {
-                    position: absolute;
-                    top: -206px;
-                    left: 732px;
-
-                    .Governance5{
-                        position: absolute;
-                        top: -68px;
-                        right: 0;
-                        text-align: right;
+                    .MobilecardInner:last-child {
+                        border: none;
                     }
                 }
             }
         }
+
+        .TokenIssuancePlanChart {
+            text-align: center;
+            margin-top: 120px;
+
+            @media (max-width:768px) {
+                margin-top: 40px;
+
+                .PieChartImg{
+                    @media (max-width:768px) {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+
+            .PieArrowMain {
+                @media (max-width:768px) {
+                    display: none;
+                }
+
+                .arrow_to_discription {
+                    position: relative;
+
+                    .GovernanceColor {
+                        text-align: left;
+
+                        span {
+                            display: block;
+                        }
+
+                        .title {
+                            color: rgba(14, 14, 14, 0.70);
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 28px;
+                            margin-bottom: 2px;
+                        }
+
+                        .description {
+                            color: #0E0E0E;
+                            font-size: 18px;
+                            font-weight: 700;
+                            line-height: 28px;
+                        }
+                    }
+
+                    .discription_sub_div1 {
+                        position: absolute;
+                        top: -282px;
+                        left: 610px;
+
+                        .piecircle {
+                            position: relative;
+                        }
+
+                        .pieBorder1 {
+                            position: absolute;
+                            top: -47px;
+                            left: -275px;
+                        }
+
+                        .Governance1 {
+                            position: absolute;
+                            top: -114px;
+                            left: -270px;
+                            text-align: left;
+                        }
+                    }
+
+                    .discription_sub_div2 {
+                        position: absolute;
+                        top: -237px;
+                        left: 252px;
+
+                        .piecircle {
+                            position: relative;
+                        }
+
+                        .pieBorder1 {
+                            position: absolute;
+                            top: -23px;
+                            left: -281px;
+                        }
+
+                        .Governance2 {
+                            position: absolute;
+                            top: -68px;
+                            left: 0;
+                        }
+                    }
+
+                    .discription_sub_div3 {
+                        position: absolute;
+                        top: -122px;
+                        left: 180px;
+
+                        .Governance3 {
+                            position: absolute;
+                            top: -10px;
+                        }
+                    }
+
+                    .discription_sub_div4 {
+                        position: absolute;
+                        top: -50px;
+                        left: 648px;
+
+                        .Governance4 {
+                            position: absolute;
+                            top: -10px;
+                            right: 0;
+                            text-align: right;
+                        }
+                    }
+
+                    .discription_sub_div5 {
+                        position: absolute;
+                        top: -206px;
+                        left: 732px;
+
+                        .Governance5 {
+                            position: absolute;
+                            top: -68px;
+                            right: 0;
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+
+            .PiechartMobileview {
+                display: none;
+
+                @media (max-width:768px) {
+                    display: block;
+                    margin-left: 41px;
+
+                    .PieChartTextMain {
+                        display: flex;
+                        align-items: center;
+                        gap: 16px;
+                        margin-bottom: 20px;
+
+                        .PieMainText {
+                            text-align: left;
+
+                            .text {
+                                margin-bottom: 2px;
+                                color: rgba(14, 14, 14, 0.70);
+                                font-family: Satoshi;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                            }
+
+                            .subtext {
+                                color: #0E0E0E;
+                                font-family: Satoshi;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: 24px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
     }
 }
