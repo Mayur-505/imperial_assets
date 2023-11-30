@@ -1,7 +1,8 @@
 import React from 'react'
 import styles from './css/ownership.module.scss'
 import Image from 'next/image'
-import OwenershipImg from '../../public/assets/Images/ownershipbanner.png'
+import OwenershipImg from '../../public/assets/Images/paradigm.png'
+import mobileOwenershipImg from '../../public/assets/Images/paradigm.png'
 
 const Ownership = () => {
   return (
@@ -19,7 +20,7 @@ const Ownership = () => {
             <p className={styles.OwenershipSubtext}>Investing in property shares paves the way for stable dividends. Say goodbye to the uncertainties of traditional property investments and embrace the predictability and security offered by Imperial Assets.</p>
           </div>
           <div className={styles.OwenershipMobileImgSec}>
-            <Image src={OwenershipImg} alt="OwenershipImg" className={styles.OwenershipMobileImgSec} />
+            <Image src={mobileOwenershipImg} alt="mobileOwenershipImg" className={styles.OwenershipMobileImgSec} />
           </div>
         </div>
         </div>

@@ -25,7 +25,7 @@ const Utility = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className={styles.UtilitySec}>
+    <section className={styles.UtilitySec} id="service">
       <div className={styles.UtilityMain}>
         <div className={styles.UtilityCases}>Utility and Use Cases</div>
 
@@ -206,7 +206,7 @@ const Utility = () => {
                     commitment made through SOMI toekns into tangible financial
                     participation. In this phase, the investment process
                     transitions from the use of SOMI tokens to major
-                    cryptocurrencies such as BNB(Binance coin)
+                    
                   </div>
                 </div>
               </div>

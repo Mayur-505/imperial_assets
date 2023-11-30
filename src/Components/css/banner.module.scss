@@ -209,9 +209,15 @@
 
                 .BannerImg {
                     @media (max-width:768px) {
-                        width: auto;
-                        height: auto;
+                       display: none;
                     }
+                }
+                .MobileBannerImg{
+                    display: none;
+
+                    @media (max-width:768px) {
+                        display: block;
+                     }
                 }
             }
         }

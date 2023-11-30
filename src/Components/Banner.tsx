@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './css/banner.module.scss'
 import BannerImg from '../../public/assets/Images/banner.png'
+import MobileBannerImg from '../../public/assets/Images/MobileBanner.png'
 import RightArrow from '../../public/assets/Images/rightArrow.png'
 import RightArrowBlack from '../../public/assets/Images/rightarrowblack.png'
 import Image from 'next/image'
@@ -25,6 +26,7 @@ const Banner = () => {
           </div>
           <div className={styles.BannerImgSec}>
             <Image src={BannerImg} alt="Banner" width={637} height={656} className={styles.BannerImg} />
+            <Image src={MobileBannerImg} alt='MobileBannerImg' className={styles.MobileBannerImg}/>
           </div>
         </div>
       </div>

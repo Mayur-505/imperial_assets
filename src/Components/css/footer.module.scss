@@ -11,9 +11,9 @@
             gap: 200px;
 
             @media (max-width:768px) {
-                flex-wrap: wrap;
-                gap: 60px;
-                padding: 40px 20px;
+                flex-direction: column;
+                gap: 40px;
+                padding: 40px 20px 48px;
             }
         }
 
@@ -25,12 +25,10 @@
         justify-content: center;
         text-align: center;
         padding: 20px 0;
-        color: #FFF;
-        font-family: Satoshi;
+        color: rgba(255, 255, 255, 0.40);
+        font-family: Poppins;
 
         @media (max-width:768px) {
-            color: rgba(255, 255, 255, 0.40);
-            font-family: Poppins;
             font-size: 14px;
             font-style: normal;
             font-weight: 500;

@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const RoadMap = () => {
     return (
-        <section className={styles.RoadMapSec}>
+        <section className={styles.RoadMapSec} id='roadmap'>
             <div className={styles.RoadMapMain}>
                 <div className={styles.RoadMapTextInner}>
                     <h3 className={styles.RoadMapText}>Road Map</h3>

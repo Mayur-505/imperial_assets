@@ -10,7 +10,7 @@ import Image from 'next/image'
 
 const ImperialAssetsPlans = () => {
     return (
-        <section className={styles.ImperialAssetsPlansSec}>
+        <section className={styles.ImperialAssetsPlansSec} id='plan'>
             <div className={styles.ImperialAssetsPlansMain}>
                 <div className={styles.ImperialAssetsPlansTextInner}>
                     <h3 className={styles.ImperialAssetsPlansText}>Imperial Assets Plans</h3>

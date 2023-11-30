@@ -1,11 +1,11 @@
 .RoadMapSec {
     padding: 0 80px;
-    margin-bottom: 100px;
+    margin-bottom: 114px;
     background: #FFF;
 
 
     @media (max-width: 768px) {
-        padding: 34px 20px 0;
+        padding: 0 20px;
     }
 
     .RoadMapMain {
@@ -13,25 +13,28 @@
 
         .RoadMapTextInner {
             margin-bottom: 51px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            // display: flex;
+            // flex-direction: column;
+            // align-items: center;
 
             @media (max-width: 768px) {
-                text-align: center;
-                margin-bottom: 66px;
+                // text-align: center;
+                margin-bottom: 30px;
             }
 
             .RoadMapText {
                 color: #0E0E0E;
                 font-family: Satoshi;
                 font-size: 52px;
+                text-align: center;
                 font-style: normal;
                 font-weight: 900;
                 line-height: 60px;
+                margin-bottom: 12px;
 
                 @media (max-width:768px) {
                     color: #0E0E0E;
+                    text-align: start;
                     font-family: Satoshi;
                     font-size: 38px;
                     font-style: normal;
@@ -51,6 +54,7 @@
 
                 @media (max-width:768px) {
                     color: rgba(14, 14, 14, 0.70);
+                    text-align: start;
                     font-family: Satoshi;
                     font-size: 18px;
                     font-style: normal;
@@ -67,11 +71,22 @@
         width: 70%;
         margin: auto;
         position: relative;
+        z-index: 1;
 
         @media (max-width:768px) {
             display: block;
             width: 100%;
             margin: 0;
+        }
+
+        &::after {
+            content: "";
+            background-image: url("../../../public/assets/Images/roadmapbg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            inset: 0;
+            z-index: -1;
         }
 
         .wrapper {
@@ -216,8 +231,9 @@
                     gap: 1.5rem;
                     list-style: none;
                     padding-bottom: 56px;
-
+                    
                     &:last-child {
+                        padding-bottom: 0;
                         &::after {
                             display: none;
                         }

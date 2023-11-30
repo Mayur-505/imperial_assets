@@ -5,7 +5,7 @@ import SomiTokenImg from '../../public/assets/Images/somitoken.png'
 
 const SomiToken = () => {
     return (
-        <section className={styles.SomiTokenSection}>
+        <section className={styles.SomiTokenSection} id='token'>
             <div className={styles.mainSomiToken}>
                 <div className={styles.SomiTokenInner}>
                     <div className={styles.SomiTokenImgSec}>

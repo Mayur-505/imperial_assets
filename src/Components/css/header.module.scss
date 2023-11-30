@@ -21,6 +21,8 @@
         }
     }
 
+    
+
     .headerRight {
         font-family: "Satoshi";
         font-size: 18px;
@@ -60,4 +62,12 @@
         padding: 17px 20px;
         justify-content: space-between;
     }
+}
+
+.mobileMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    padding: 30px;
 }

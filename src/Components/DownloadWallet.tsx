@@ -37,7 +37,7 @@ const DownloadWallet = () => {
                         </div>
                     </div>
                     <div className={styles.BannerImgSec}>
-                        <Image src={MobileImg} alt="MobileImg" width={580} className={styles.BannerImg} />
+                        <Image src={MobileImg} alt="MobileImg" className={styles.BannerImg} />
                     </div>
                 </div>
             </div>
