@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './css/somitoken.module.scss'
 import Image from 'next/image'
-import SomiTokenImg from '../../public/assets/Images/somitoken.png'
+import SomiTokenImg from '../../public/assets/Images/somitoken.svg'
 
 const SomiToken = () => {
     return (

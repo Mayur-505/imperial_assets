@@ -1,11 +1,11 @@
 import React from 'react'
 import styles from './css/ImperialAssetsPlans.module.scss'
-import ImperialImg from '../../public/assets/Images/imperialplateform.png'
-import SOMIImg from '../../public/assets/Images/Subscription.png'
-import CraftingImg from '../../public/assets/Images/Crafting.png'
-import SmartContractImg from '../../public/assets/Images/SmartContract.png'
-import MarketAccessImg from '../../public/assets/Images/MarketAccess.png'
-import CommunityBuildingImg from '../../public/assets/Images/CommunityBuilding.png'
+import ImperialImg from '../../public/assets/Images/imperialplateform.svg'
+import SOMIImg from '../../public/assets/Images/Subscription.svg'
+import CraftingImg from '../../public/assets/Images/Crafting.svg'
+import SmartContractImg from '../../public/assets/Images/SmartContract.svg'
+import MarketAccessImg from '../../public/assets/Images/MarketAccess.svg'
+import CommunityBuildingImg from '../../public/assets/Images/CommunityBuilding.svg'
 import Image from 'next/image'
 
 const ImperialAssetsPlans = () => {

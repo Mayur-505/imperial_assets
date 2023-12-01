@@ -1,20 +1,20 @@
 import React from 'react'
 import styles from './css/TokenIssuancePlan.module.scss'
 import Image from 'next/image'
-import TokenCard from '../../public/assets/Images/tokenIssuecard.png'
-import MobileTokenCard from '../../public/assets/Images/mobiletokencard.png'
-import ProjectAssets from '../../public/assets/Images/projetAsset.png'
-import PieImg from '../../public/assets/Images/Piechart.png'
+import TokenCard from '../../public/assets/Images/tokenIssuecard.svg'
+import MobileTokenCard from '../../public/assets/Images/mobiletokencard.svg'
+import ProjectAssets from '../../public/assets/Images/projetAsset.svg'
+import PieImg from '../../public/assets/Images/Piechart.svg'
 import PieImg1 from '../../public/assets/Images/pieBorder1.png'
 import PieImg2 from '../../public/assets/Images/pieBorder2.png'
 import PieImg3 from '../../public/assets/Images/pieBorder3.png'
 import PieImg4 from '../../public/assets/Images/pieBorder4.png'
 import PieImg5 from '../../public/assets/Images/pieBorder5.png'
-import BlueRec from '../../public/assets/Images/BlueRectangle.png'
-import PurpleRec from '../../public/assets/Images/PurpleRectangle.png'
-import SkyRec from '../../public/assets/Images/SkyRectangle.png'
-import SkyBlue from '../../public/assets/Images/skyBlueRec.png'
-import SkyPinkRec from '../../public/assets/Images/skyPink.png'
+import BlueRec from '../../public/assets/Images/BlueRectangle.svg'
+import PurpleRec from '../../public/assets/Images/PurpleRectangle.svg'
+import SkyRec from '../../public/assets/Images/SkyRectangle.svg'
+import SkyBlue from '../../public/assets/Images/skyBlueRec.svg'
+import SkyPinkRec from '../../public/assets/Images/skyPink.svg'
 
 
 const TokenIssuancePlan = () => {
@@ -28,7 +28,7 @@ const TokenIssuancePlan = () => {
                         <div className={styles.TokenIssuance}>
                             <div className={styles.TokenIssuanceCard}>
                                 <Image src={ProjectAssets} alt='ProjectAssets' width={60} height={60} />
-                                <h2 className={styles.ProjectAssetsText}>Project Name Imperial Assets</h2>
+                                <h2 className={styles.ProjectAssetsText}>Imperial Assets</h2>
                             </div>
                             <div className={styles.TokenIssuanceCard}>
                                 <Image src={ProjectAssets} alt='ProjectAssets' width={60} height={60} />
@@ -53,13 +53,13 @@ const TokenIssuancePlan = () => {
                         <div className={styles.mobilecardMain}>
                             <div className={styles.MobilecardInner}>
                                 <Image src={ProjectAssets} alt='ProjectAssets' />
-                                <h3 className={styles.text}>Name: Imperial Assets</h3>
+                                <h3 className={styles.text}>Imperial Assets</h3>
                             </div>
                         </div>
                         <div className={styles.mobilecardMain}>
                             <div className={styles.MobilecardInner}>
                                 <Image src={ProjectAssets} alt='ProjectAssets' />
-                                <h3 className={styles.text}>Symbol: SOMI</h3>
+                                <h3 className={styles.text}>SOMI</h3>
                             </div>
                         </div>
                         <div className={`${styles.mobilecardMain} ${styles.Specification}`}>

@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './css/ownership.module.scss'
 import Image from 'next/image'
-import OwenershipImg from '../../public/assets/Images/paradigm.png'
-import mobileOwenershipImg from '../../public/assets/Images/paradigm.png'
+import OwenershipImg from '../../public/assets/Images/paradigm.svg'
+import mobileOwenershipImg from '../../public/assets/Images/Mombileparadigm.svg'
 
 const Ownership = () => {
   return (

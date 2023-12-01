@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './css/RoadMap.module.scss'
-import Arrow from '../../public/assets/Images/arrow.png'
-import Stepper from '../../public/assets/Images/stepper.png'
+import Arrow from '../../public/assets/Images/arrow.svg'
+import Stepper from '../../public/assets/Images/stepper.svg'
 import Image from 'next/image'
 
 const RoadMap = () => {

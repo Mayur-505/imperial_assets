@@ -1,11 +1,11 @@
 import { ReactNode } from "react";
 import styles from './css/footer.module.scss'
-import FooterLogo from '../../public/assets/Images/footerLogo.png'
+import FooterLogo from '../../public/assets/Images/footerLogo.svg'
 import Image from "next/image";
-import TeleGramWhite from '../../public/assets/Images/telegramWhite.png'
-import Email from '../../public/assets/Images/email.png'
-import TeleGramWBlack from '../../public/assets/Images/telegramBlack.png'
-import Twitter from '../../public/assets/Images/Twitter.png'
+import TeleGramWhite from '../../public/assets/Images/telegramWhite.svg'
+import Email from '../../public/assets/Images/email.svg'
+import TeleGramWBlack from '../../public/assets/Images/telegramBlack.svg'
+import Twitter from '../../public/assets/Images/Twitter.svg'
 
 const Footer = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './css/DownloadWallet.module.scss'
-import MobileImg from '../../public/assets/Images/DownloadWallet.png'
-import AppStore from '../../public/assets/Images/appstore.png'
-import GoogleStore from '../../public/assets/Images/googleStore.png'
+import MobileImg from '../../public/assets/Images/DownloadWallet.svg'
+import AppStore from '../../public/assets/Images/appstore.svg'
+import GoogleStore from '../../public/assets/Images/googleStore.svg'
 import Image from 'next/image'
 
 const DownloadWallet = () => {

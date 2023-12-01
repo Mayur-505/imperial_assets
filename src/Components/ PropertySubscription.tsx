@@ -4,10 +4,10 @@
     import Image from 'next/image'
     import activeStepIcon from "../../public/assets/icons/activeStep.svg"
     import stepIcon from "../../public/assets/icons/step.svg"
-    import step1Image from "../../public/assets/Images/step1.png"
-    import step2Image from "../../public/assets/Images/step2.png"
-    import step3Image from "../../public/assets/Images/step3.png"
-    import step4Image from "../../public/assets/Images/step4.png"
+    import step1Image from "../../public/assets/Images/step1.svg"
+    import step2Image from "../../public/assets/Images/step2.svg"
+    import step3Image from "../../public/assets/Images/step3.svg"
+    import step4Image from "../../public/assets/Images/step4.svg"
 
     const PropertySubscription = () => {
         const [activStep, setActivStep] = useState(1)

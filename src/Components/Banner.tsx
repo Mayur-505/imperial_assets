@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './css/banner.module.scss'
-import BannerImg from '../../public/assets/Images/banner.png'
-import MobileBannerImg from '../../public/assets/Images/MobileBanner.png'
-import RightArrow from '../../public/assets/Images/rightArrow.png'
-import RightArrowBlack from '../../public/assets/Images/rightarrowblack.png'
+import BannerImg from '../../public/assets/Images/banner.svg'
+import MobileBannerImg from '../../public/assets/Images/MobileBanner.svg'
+import RightArrow from '../../public/assets/Images/rightArrow.svg'
+import RightArrowBlack from '../../public/assets/Images/rightarrowblack.svg'
 import Image from 'next/image'
 
 const Banner = () => {

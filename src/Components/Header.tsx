@@ -3,7 +3,7 @@
 import React, { useState } from 'react'
 import Logo from '../../public/assets/Images/logo.svg'
 import LogoMobile from '../../public/assets/Images/logomobile.svg'
-import Menu from '../../public/assets/Images/menu.png'
+import Menu from '../../public/assets/Images/menu.svg'
 import styles from './css/header.module.scss'
 import Image from 'next/image'
 import Drawer from '@mui/material/Drawer';
