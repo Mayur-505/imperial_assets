@@ -22,8 +22,23 @@
         }
 
         .bannerInner {
+            position: relative;
             display: flex;
-            align-items: center;
+            // align-items: center;
+            z-index: 1;
+
+            &::before {
+                content: "";
+                position: absolute;
+                background-image: url("../../../public/assets/Images/bannerInnerbg.svg");
+                background-repeat: no-repeat;
+                left: -17px;
+                top: 33px;                       
+                z-index: -1;
+                background-position: top left;
+                width: 124.007px;
+                height: 173.821px;
+            }
 
             @media (max-width:768px) {
                 display: block;
@@ -33,6 +48,7 @@
             .BannerTextsec {
                 position: relative;
                 width: 50%;
+                margin-top: 60px;
 
                 @media (max-width:768px) {
                     width: 100%;
@@ -210,9 +226,11 @@
                             outline: none;
                             cursor: pointer;
                         }
+
                         &:hover {
                             color: #0e0e0ea6;
                         }
+
                         img {
                             margin: 0;
                         }
