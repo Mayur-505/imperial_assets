@@ -11,8 +11,6 @@ import DownloadWallet from '@/Components/DownloadWallet'
 import Footer from '@/Components/Footer'
 import Utility from '@/Components/Utility'
 import RoadMap from '@/Components/RoadMap'
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
 
 
 export default function Home() {
