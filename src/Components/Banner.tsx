@@ -12,11 +12,10 @@ const Banner = () => {
       <div className={styles.mainBanner}>
         <div className={styles.bannerInner}>
           <div className={styles.BannerTextsec}>
-            <div className={styles.bannerSubButton}>The Property invest platform</div>
+            <div className={styles.bannerSubButton}>The Property investment platform</div>
             <h1 className={styles.bannertext}>
               Realize your
-              Property Dreams
-              with Imperial Assets
+              Property Dreams with Imperial Assets
             </h1>
             <p className={styles.bannerSubtext}>Say goodbye to the complexities of traditional property ownership, hello to a seamless and inclusive experience</p>
             <div className={styles.mainButton}>
@@ -26,7 +25,7 @@ const Banner = () => {
           </div>
           <div className={styles.BannerImgSec}>
             <Image src={BannerImg} alt="Banner" width={637} height={656} className={styles.BannerImg} />
-            <Image src={MobileBannerImg} alt='MobileBannerImg' className={styles.MobileBannerImg}/>
+            <Image src={MobileBannerImg} alt='MobileBannerImg' className={styles.MobileBannerImg} />
           </div>
         </div>
       </div>

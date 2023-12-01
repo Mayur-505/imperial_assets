@@ -39,8 +39,6 @@
                 }
 
                 .bannerSubButton {
-                    width: 263px;
-                    height: 38px;
                     padding: 6px 16px;
                     border-radius: 30px;
                     border: 1px solid rgba(14, 14, 14, 0.10);
@@ -53,17 +51,15 @@
                     font-weight: 500;
                     line-height: 26px;
                     margin-bottom: 18px;
+                    display: inline-block;
 
                     @media (max-width: 768px) {
                         color: #0E0E0E;
-                        text-align: center;
                         font-family: Satoshi;
                         font-size: 15px;
                         font-style: normal;
                         font-weight: 500;
                         line-height: 22px;
-                        width: 224px;
-                        height: 34px;
                         border-radius: 30px;
                         border: 1px solid rgba(14, 14, 14, 0.10);
                         background: #FFF;
@@ -145,6 +141,7 @@
                         outline: none;
                         transition: all 0.3s;
                         cursor: pointer;
+                        gap: 4px;
 
                         @media (max-width:768px) {
                             width: 133px;
@@ -195,6 +192,7 @@
                         outline: none;
                         cursor: pointer;
                         transition: all 0.3s;
+                        gap: 4px;
 
                         @media (max-width:768px) {
                             width: 180px;

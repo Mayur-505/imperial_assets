@@ -1,8 +1,8 @@
 "use client"
 
 import React, { useState } from 'react'
-import Logo from '../../public/assets/Images/logo.png'
-import LogoMobile from '../../public/assets/Images/logomobile.png'
+import Logo from '../../public/assets/Images/logo.svg'
+import LogoMobile from '../../public/assets/Images/logomobile.svg'
 import Menu from '../../public/assets/Images/menu.png'
 import styles from './css/header.module.scss'
 import Image from 'next/image'
