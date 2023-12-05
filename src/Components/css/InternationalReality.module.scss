@@ -1,0 +1,65 @@
+.InternationalRealitySec {
+    margin-bottom: 150px;
+    position: relative;
+    background-image: url("../../../public/assets/Images/Internationalreality.svg");
+    width: 1440px;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 50px 0 47px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 60px;
+         padding: 23px 0 21px;
+         width: 100%;
+    }
+    .InternationalRealityWrapper{
+        .InternationalRealityInner{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .InternationalRealityTitle{
+                color: #0E0E0E;
+                font-family: "Satoshi";
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 60px; 
+                margin-bottom: 29px;
+
+                @media (max-width:768px) {
+                    font-size: 18px;
+                    line-height: 26px;
+                    margin-bottom: 12px;
+                }
+            }
+            .KoreaTextImg{
+                width: 657px;
+                @media (max-width:768px) {
+                    width: 283px;
+                    height: 53px;
+                }
+            }
+            .InternationalRealitySubTitle{
+                color: #0E0E0E;
+                text-align: center;
+                font-family: Satoshi;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                opacity: 0.6;
+                width: 1042px;
+                margin-top: 46px;
+
+                @media (max-width:768px) {
+                    font-size: 12px;
+                    line-height: 26px;
+                    width: 335px;
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}

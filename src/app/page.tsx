@@ -13,6 +13,7 @@ import Utility from '@/Components/Utility'
 import RoadMap from '@/Components/RoadMap'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import InternationalReality from '@/Components/InternationalReality'
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
     <main className={styles.main}>
         <Header />
         <Banner />
+        <InternationalReality />
         <Ownership />
         <PropertySubscription />
         <SomiToken />

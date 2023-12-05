@@ -13,7 +13,7 @@ const Ownership = () => {
             <Image src={OwenershipImg} alt="OwenershipImg" width={509} height={497} className={styles.OwenershipImg} />
           </div>
           <div className={styles.OwenershipTextsec}>
-            <div className={styles.OwenershipSubButton}>The Property invest platform</div>
+            <div className={styles.OwenershipSubButton}>The Property investment platform</div>
             <h1 className={styles.Owenershiptext}>
             A new paradigm of property ownership
             </h1>

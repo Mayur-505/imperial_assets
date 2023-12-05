@@ -1,7 +1,7 @@
 .BannerSection {
     margin-top: 88px;
     padding: 0 80px;
-    margin-bottom: 48px;
+    margin-bottom: 80px;
 
     @media (max-width: 768px) {
         padding: 0 20px 14px;
@@ -22,23 +22,8 @@
         }
 
         .bannerInner {
-            position: relative;
             display: flex;
-            // align-items: center;
-            z-index: 1;
-
-            &::before {
-                content: "";
-                position: absolute;
-                background-image: url("../../../public/assets/Images/bannerInnerbg.svg");
-                background-repeat: no-repeat;
-                left: -17px;
-                top: 33px;                       
-                z-index: -1;
-                background-position: top left;
-                width: 124.007px;
-                height: 173.821px;
-            }
+            align-items: center;
 
             @media (max-width:768px) {
                 display: block;
@@ -48,7 +33,6 @@
             .BannerTextsec {
                 position: relative;
                 width: 50%;
-                margin-top: 60px;
 
                 @media (max-width:768px) {
                     width: 100%;
@@ -114,7 +98,7 @@
                     font-style: normal;
                     font-weight: 400;
                     line-height: 30px;
-                    width: 550px;
+                    width: 637px;
                     margin-bottom: 48px;
 
                     @media (max-width:768px) {
@@ -226,11 +210,9 @@
                             outline: none;
                             cursor: pointer;
                         }
-
                         &:hover {
                             color: #0e0e0ea6;
                         }
-
                         img {
                             margin: 0;
                         }

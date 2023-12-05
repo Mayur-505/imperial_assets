@@ -17,10 +17,10 @@ const Banner = () => {
               Realize your
               Property Dreams with Imperial Assets
             </h1>
-            <p className={styles.bannerSubtext}>Say goodbye to the complexities of traditional property ownership, hello to a seamless and inclusive experience</p>
+            <p className={styles.bannerSubtext}>Say goodbye to the complexities of traditional property ownership. Say hello to a seamless and inclusive experience.</p>
             <div className={styles.mainButton}>
               <button className={styles.BannerBuyButton}>Buy SOMI <Image src={RightArrow} alt="RightArrow" /></button>
-              <button className={styles.BannerWhitepaperButton}>Whitepaper 1.00 <Image src={RightArrowBlack} alt="RightArrowBlack" /></button>
+              <a href='/white-paper' target='_blank' className={styles.BannerWhitepaperButton}>Whitepaper 1.00 <Image src={RightArrowBlack} alt="RightArrowBlack" /></a>
             </div>
           </div>
           <div className={styles.BannerImgSec}>
